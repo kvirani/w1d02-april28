@@ -6,7 +6,7 @@ console.log('process.argv', process.argv);
 let nums = process.argv.slice(2);
 let finalSum = 0;
 
-console.log('nums: ', nums);
+// console.log('nums: ', nums);
 
 for (let numString of nums) {
   console.log('num: ', numString);
